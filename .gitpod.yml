@@ -1,12 +1,14 @@
 
 image:
-  file: webapp/.gitpod.Dockerfile
+  file: .gitpod.Dockerfile
   context: ./webapp
 
 tasks:
   - name: Restore & Build
     init: |
-      dotnet DotNetIntro.Docker.dll
+      docker build -t aspnetintro-image -f .gitpod.Dockerfile webapp/.
+    command: |
+      docker run -p 3012:3012 aspnetintro-image
 
 ports:
   - port: 3012
