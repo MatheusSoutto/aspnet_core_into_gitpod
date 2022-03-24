@@ -1,12 +1,9 @@
-
 image:
   file: .gitpod.Dockerfile
-  context: ./webapp
 
 ports:
   - port: 3012
     onOpen: open-preview
-
 
 vscode:
   extensions:
