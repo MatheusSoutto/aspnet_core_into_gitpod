@@ -4,8 +4,12 @@ image:
 
 tasks:
   - name: Restore & Build
-    init: |
-      docker run -p 3012:3012 aspnetintro-image
+    init: docker build -t aspnetintro-image -f webapp/.gitpod.Dockerfile webapp/.
+    command: docker run -p 3012:3012 aspnetintro-image
+
+ports:
+  - port: 3012
+    onOpen: open-preview
 
 vscode:
   extensions:
