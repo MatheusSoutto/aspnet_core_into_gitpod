@@ -5,13 +5,11 @@ tasks:
   - name: Restore & Build
     init: |
       docker build -t aspnetcore_intro -f  webapp/Dockerfile webapp/.
-    command: |
-      docker run -p 3012:3012 aspnetcore_intro
+    # I can't run the app on prebuild, because gitpod does not understand that the job finished
+    # It keeps waiting for the jobs to finish, but the run command keeps listening on the port
+    #command: |
+    #  docker run -p 3012:3012 aspnetcore_intro
 
 ports:
   - port: 3012
     onOpen: open-preview
-
-vscode:
-  extensions:
-    - muhammad-sammy.csharp
