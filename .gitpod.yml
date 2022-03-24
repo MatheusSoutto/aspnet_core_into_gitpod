@@ -1,7 +1,11 @@
+image:
+  file: webapp/.gitpod.Dockerfile
+  context: ./webapp
+
 tasks:
   - name: Restore & Build
     init: |
-      echo 'TODO: restore and build in the container'
+      docker run -p 3012:3012 aspnetintro-image
 
 vscode:
   extensions:
