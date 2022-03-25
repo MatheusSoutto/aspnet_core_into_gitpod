@@ -3,6 +3,7 @@ WORKDIR /webapp
 
 # Copy everything
 COPY . ./
+# Install dependencies
 # Restore as distinct layers
 RUN dotnet restore
 # Build and publish a release
