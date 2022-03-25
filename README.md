@@ -1,18 +1,22 @@
-# A .NET Core CLI template on Gitpod
+# ASP.NET Core Intro - Contoso Crafts
 
-This is a [.NET Core CLI](https://docs.microsoft.com/en-us/dotnet/core/introduction) template configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).
+This is a project based on [Introducing ASP.NET Core LinkedIn Learning Course](https://www.linkedin.com/learning/introducing-asp-dot-net-core)
 
-## Next Steps
+Click the button below to check this project in an online development environment:
 
-Click the button below to start a new development environment:
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/MatheusSoutto/aspnet_core_into_gitpod)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/template-dotnet-core-cli-csharp)
+## A .NET Core CLI template on Gitpod
+
+This is a project that was started using the  [.NET Core CLI](https://docs.microsoft.com/en-us/dotnet/core/introduction) template configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).
 
 ## Get Started With Your Own Project
 
 ### A new project
 
-Click the above "Open in Gitpod" button to start a new workspace. Once you're ready to push your first code changes, Gitpod will guide you to fork this project so you own it.
+Click the below button to start a new workspace. Once you're ready to push your first code changes, Gitpod will guide you to fork this project so you own it.
+
+[![Create a new Project from .NET Core CLI Template](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/template-dotnet-core-cli-csharp)
 
 ### An existing project
 
