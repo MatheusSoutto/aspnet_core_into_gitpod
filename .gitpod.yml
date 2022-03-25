@@ -1,3 +1,4 @@
+
 image:
   file: .gitpod.Dockerfile
 
@@ -13,3 +14,7 @@ tasks:
 ports:
   - port: 3012
     onOpen: open-preview
+
+vscode:
+  extensions:
+    - muhammad-sammy.csharp
