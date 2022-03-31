@@ -1,7 +1,11 @@
+using DotNetIntro.Docker.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+builder.Services.AddTransient<JsonFileProductService>();
 
 builder.WebHost.UseUrls("http://localhost:3012");
 
