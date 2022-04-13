@@ -9,10 +9,11 @@ tasks:
 # I can't run the app on prebuild, because gitpod does not understand that the job finished
 # It keeps waiting for the jobs to finish, but the run command keeps listening on the port
 # command: |
-#   docker run -p 3012:3012 -d aspnetcore_intro
+#   docker run -p 3012:3012 aspnetcore_intro
 
 ports:
   - port: 3012
+    visibility: public
 #    onOpen: open-preview
 
 vscode:
