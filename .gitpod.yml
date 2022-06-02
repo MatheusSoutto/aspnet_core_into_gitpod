@@ -5,11 +5,13 @@ image:
 tasks:
   - name: Restore & Build
     init: |
+      cd ./webapp
       dotnet restore
       dotnet build
       
   - name: Run
     command: |
+      cd ./webapp
       dotnet run
 
 ports:
