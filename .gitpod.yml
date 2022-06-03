@@ -8,7 +8,7 @@ tasks:
       cd ./webapp
       dotnet restore
       dotnet build
-      
+
   - name: Run
     command: |
       cd ./webapp
@@ -22,3 +22,4 @@ ports:
 vscode:
   extensions:
     - muhammad-sammy.csharp
+    - jsw.csharpextensions
